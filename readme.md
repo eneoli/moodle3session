@@ -14,10 +14,10 @@ bower install moodle3session --save
 To get a moodle session you have to create a new `MoodleSession` object...
 
 ```js
-const moodle3session = require('modle3session');
-const session = moodle3Session.MoodleSession('https://moodle.mysite.de');
+const moodle3session = require('moodle3session');
+const session = new moodle3session.MoodleSession('https://moodle.mysite.de');
 ...
 
-const moodleSession = session.obtainMoodleSession('Username', 'Password'); // string
-const stillValid = session.isValid(moodleSession); // boolean
+const moodleSession = await session.obtainMoodleSession('Username', 'Password'); // string
+const stillValid = await session.isValid(moodleSession); // boolean
 ```
