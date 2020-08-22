@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublish": "tsc"
   },
   "author": "“Oliver <“oliver@enesnet.de”> (https://enesnet.de)",
   "repository": {
-    "url": "https://github.com/EneOli/moodle3session",
+    "url": "https://github.com/EneOli/moodle3session"
   },
   "license": "MIT",
   "dependencies": {
