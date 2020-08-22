@@ -1,0 +1,23 @@
+{
+  "name": "moodle3session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "“Oliver <“oliver@enesnet.de”> (https://enesnet.de)",
+  "repository": {
+    "url": "https://github.com/EneOli/moodle3session",
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.21",
+    "typescript": "^4.0.2"
+  }
+}
